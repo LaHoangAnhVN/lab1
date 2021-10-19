@@ -59,7 +59,7 @@ for line in lines:
         headers = headers[1:len(headers)-1]
         Table.append(headers)
 
-N = 5 #изменение типа значения строки из того, что вводиться из клавиатуры,
+N = 4 #изменение типа значения строки из того, что вводиться из клавиатуры,
 temp = Table[N]
 
 tmp_split = temp.split(";")
